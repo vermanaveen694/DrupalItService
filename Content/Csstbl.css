@@ -1,0 +1,72 @@
+﻿
+.tableb {
+    width: 100%;
+}
+
+
+
+    .tableb thead tr th {
+        padding: 5px 15px 5px 5px !important;
+        background-color: #074b9c !important;
+        color: #fff !important;
+        text-align: center !important;
+        border-right: 1px solid #ccc !important;
+        border-top: 0px solid !important;
+    }
+
+        .tableb thead tr th:first-child {
+            border-top-left-radius: 5px !important;
+            -webkit-border-top-left-radius: 5px !important;
+            -moz-border-top-left-radius: 5px !important;
+            -o-border-top-left-radius: 5px !important;
+        }
+
+        .tableb thead tr th:last-child {
+            border-top-right-radius: 5px !important;
+            -webkit-border-top-right-radius: 5px !important;
+            -moz-border-top-right-radius: 5px !important;
+            -o-border-top-right-radius: 5px !important;
+            border-right: none !important;
+        }
+
+    .tableb tbody tr td {
+        padding: 3px 5px !important;
+        font-size: 14px !important;
+        color: #000 !important;
+        border: 1px solid #ccc !important;
+    }
+
+        .tableb tbody tr td:last-child {
+            border-right: 1px solid #ccc !important;
+        }
+
+
+
+
+
+    .tableb tbody tr th {
+        font-weight: bold !important;
+        text-align: center !important;
+        padding: 2px 5px !important;
+        background: #0099cc url(../images/head.png) !important;
+        color: #fff !important;
+        border-top: none;
+        border-bottom: 1px solid #333 !important;
+        border-left: none !important;
+        border-right: 1px solid #fff !important;
+    }
+
+
+    .tableb thead tr th, .tableb tbody tr th {
+        padding: 5px 15px 5px 5px !important;
+        background-color: #074b9c !important;
+        color: #fff !important;
+        text-align: center;
+        border-right: 1px solid #ccc !important;
+        border-top: 0px solid !important;
+        font-size: 14px !important;
+    }
+
+    .tableb tr td {
+        text-align: center;
+    }
